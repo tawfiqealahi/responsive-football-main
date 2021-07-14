@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-  /****** body ****************/
+ /******body****************/
 *{
     margin: 0;
     padding: 0;
@@ -124,23 +124,6 @@ main{
         width: 32px;
         height: 32px;
 }
-@media screen and (min-device-width: 320px) and (max-device-width: 768px){
-    .footer-part{
-        text-align: center;
-      padding: 15px 0;
-    }
-    .footer-part img{
-        width: 80%;
-    }
-     .footer-part .media-icons{
-        padding-bottom: 15px;
-    }
-    .footer-part .media-icons i{
-        padding: 15px;
-        width: 32px;
-        height: 32px;
-}
-}
 
   /*************** footer-part end**********************/
   /*************** responsive**********************/
@@ -156,7 +139,7 @@ main{
         display: block;
         padding-left: 5%;
     }
-..container .banner h1{
+.container .banner h1{
     font-size: 10px;
     
     padding-top: 10px;
@@ -175,7 +158,7 @@ span:hover{
    /**************** player list  part responsive *************************/
     main{
         display: block;
-        text-align: center;
+        text-align:center;
         flex-direction: row;
         position: relative;
         top: 10px;
@@ -216,6 +199,19 @@ span:hover{
             margin-top: 170px; 
         }
   /*************** footer-part responsive**********************/
-
-
-  }
+  .footer-part{
+    text-align: center;
+  padding: 15px 0;
+}
+.footer-part img{
+    width: 80%;
+}
+ .footer-part .media-icons{
+    padding-bottom: 15px;
+}
+.footer-part .media-icons i{
+    padding: 15px;
+    width: 32px;
+    height: 32px;
+}
+ }
