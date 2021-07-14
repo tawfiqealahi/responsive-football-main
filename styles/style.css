@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background: #F2F2F2;
 }
  /**************** banner part start***************/
 .container{
@@ -14,24 +18,116 @@
     
 }
 .banner{
-    width: 1050px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    padding-left: 152px;
 }
 .container .banner h1{
     color: white;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 45px;
+    
+    padding-top: 70px;
+
+}
+span{
+    position: relative;
+    top: 20px;
+    color: rgb(27, 25, 25);
+    background: rgba(226, 9, 27, 0.753);
+    padding: 3px 10px;
+    transition:1s;
+    border-radius:10px;
+}
+ span:hover{
+    color: blue;
+    background: rgb(65, 161, 190);
+}
+span a{
+    text-decoration: none;
+    color:white;
+    
 }
 .container .banner img{
     width: 556px;
     height: 438px;
-    /* position: relative;
+    position: relative;
     top: 60px;
-    left:400px; */
+    left: 100px;
 }
 
 
-
  /**************** banner part end***************/
+ /***
+ 
+ ************* player-list (main) start ***********************/
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 30px;
+    margin-bottom: 50px;
+}
+ .player-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-gap: 20px;
+    width: 1050px;
+}
+.player-list .player-details{
+    width: 300px;
+    padding: 10px;
+    box-shadow: 2px 1px 5px 3px rgba(151,145,145,0.75);
+}
+.player-details img{
+    width: 100%;
+
+}
+.player-details .player-information p{
+    font-size: 10px;
+
+}
+
+ /**************** player-list (main) end ***********************/
+ /* ************** highlight part start ********************/
+ .highlights{
+
+    width: 1050px;
+    display: flex;
+    padding: 100px 0;
+ }   
+ .highlights-details{
+    width: 50%;
+    text-align: left;
+    position: relative;
+    top:80px;
+
+
+    }
+.highlights img{
+    width: 50%; 
+}
+
+ /* ************** highlight part end ********************/
+
+  /*************** footer-part start**********************/
+  .footer-part{
+      text-align: center;
+    padding: 50px 0;
+  }  
+  .footer-part img{
+        width: 480px;
+    }
+     .footer-part .media-icons{
+        padding-bottom: 20px;
+        
+    }
+    .footer-part .media-icons i{
+        padding: 15px;
+        width: 32px;
+        height: 32px;
+}
+
+
+  /*************** footer-part end**********************/
