@@ -129,7 +129,7 @@ main{
   /*************** responsive**********************/
   /*************** mobile device**********************/
 
-  @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  @media screen and (min-device-width: 320px) and (max-device-width: 640px) {
    /**************** banner part *************************/
     .container {
       width: 100%;
@@ -140,24 +140,21 @@ main{
         padding-left: 5%;
     }
 .container .banner h1{
-    font-size: 10px;
+    font-size: 25px;
     
-    padding-top: 10px;
+    padding-top: 100px;
 }
 .container .banner img{
-    width: 500px;
-    height: 390px;
+    width: 300px;
+    height: 250px;
     position: relative;
     top: 5px;
-    left: 140px;
+    left: 100px;
 }
-span:hover{
-    color: blue;
-    background: rgb(65, 161, 190);
 
    /**************** player list  part responsive *************************/
-    main{
-        display: block;
+    main {
+        display:block;
         text-align:center;
         flex-direction: row;
         position: relative;
