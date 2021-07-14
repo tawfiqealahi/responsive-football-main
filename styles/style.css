@@ -129,7 +129,7 @@ main{
   /*************** responsive**********************/
   /*************** mobile device**********************/
 
-  @media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  @media screen and (max-width: 688px) {
    /**************** banner part *************************/
     .container {
       width: 100%;
@@ -139,12 +139,12 @@ main{
         display: block;
         padding-left: 5%;
     }
-.container .banner h1{
+.banner h1{
     font-size: 25px;
     
     padding-top: 100px;
 }
-.container .banner img{
+.banner img{
     width: 300px;
     height: 250px;
     position: relative;
