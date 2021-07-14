@@ -56,7 +56,6 @@ span a{
     left: 100px;
 }
 
-
  /**************** banner part end***************/
  /***
  
@@ -88,7 +87,6 @@ main{
     font-size: 10px;
 
 }
-
  /**************** player-list (main) end ***********************/
  /* ************** highlight part start ********************/
  .highlights{
@@ -102,8 +100,6 @@ main{
     text-align: left;
     position: relative;
     top:80px;
-
-
     }
 .highlights img{
     width: 50%; 
@@ -128,6 +124,98 @@ main{
         width: 32px;
         height: 32px;
 }
-
+@media screen and (min-device-width: 320px) and (max-device-width: 768px){
+    .footer-part{
+        text-align: center;
+      padding: 15px 0;
+    }
+    .footer-part img{
+        width: 80%;
+    }
+     .footer-part .media-icons{
+        padding-bottom: 15px;
+    }
+    .footer-part .media-icons i{
+        padding: 15px;
+        width: 32px;
+        height: 32px;
+}
+}
 
   /*************** footer-part end**********************/
+  /*************** responsive**********************/
+  /*************** mobile device**********************/
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+   /**************** banner part *************************/
+    .container {
+      width: 100%;
+      height: 700px;
+    }
+    .banner{
+        display: block;
+        padding-left: 5%;
+    }
+..container .banner h1{
+    font-size: 10px;
+    
+    padding-top: 10px;
+}
+.container .banner img{
+    width: 500px;
+    height: 390px;
+    position: relative;
+    top: 5px;
+    left: 140px;
+}
+span:hover{
+    color: blue;
+    background: rgb(65, 161, 190);
+
+   /**************** player list  part responsive *************************/
+    main{
+        display: block;
+        text-align: center;
+        flex-direction: row;
+        position: relative;
+        top: 10px;
+    }
+    .player-list{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) ;
+        grid-gap: 15px;
+        width: 100%;
+    }
+    .player-list .player-details{
+        width: 100%;
+        
+        padding: 10px;
+        box-shadow: 2px 1px 5px 3px rgba(151,145,145,0.75);
+    }
+    .player-details .player-information p{
+        font-size: 7px;
+        text-align: center;
+    
+    }
+
+    /******************************** highlight part responsive ***********************/
+    .highlights{
+
+        width: 100%;
+        display: block;
+        flex-direction: row;
+        padding: 20px 10px;
+     } 
+     .highlights-details{
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+        }
+        .highlights img{
+            width: 100%;
+            margin-top: 170px; 
+        }
+  /*************** footer-part responsive**********************/
+
+
+  }
